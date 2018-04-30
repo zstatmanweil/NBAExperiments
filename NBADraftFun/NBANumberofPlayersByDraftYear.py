@@ -3,7 +3,7 @@ import pandas as pd
 import time
 
 #npaplayers.json found here: http://data.nba.net/10s/prod/v1/2017/players.json
-json_file = open ('nbaplayers.json')
+json_file = open (r'..\nbaplayers.json')
 json_str = json_file.read()
 json_data = json.loads(json_str)
 
