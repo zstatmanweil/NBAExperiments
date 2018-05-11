@@ -1,2 +1,1 @@
-# LearningPython
-These are the scripts I am creating and editing as I learn Python. I love basketball so many of my scripts will center around the game. 
+These are the scripts I am creating and editing as I learn Python. I love basketball so many of my scripts will center around the game. My favorite project right now is NBADraftFun where a user can ask fun/interesting questions about current players and draft years. 
