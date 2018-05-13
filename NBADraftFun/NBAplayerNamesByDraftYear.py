@@ -61,20 +61,21 @@ def get_draft_year_round(name):
             draft_year = player['draft']['seasonYear']
             draft_pick = player['draft']['pickNum']
             draft_round = player['draft']['roundNum']
+            
+            if draft_round == '1':
+                draft_round = '1st'
+            else:
+                draft_round = '2nd'
             pass
+        
         else:
             pass
         
-    if draft_round == '1':
-        draft_round = '1st'
-    else:
-        draft_round = '2nd'
-            
-         
+        
     if i == 1 and draft_year != '':
-        print """\n%s was drafted number %s in the %s round in %s""" % (name, draft_pick, draft_round, draft_year)
+        print """\n%s was drafted number %s in the %s round in %s""" % (name.title(), draft_pick, draft_round, draft_year)
     elif i == 1 and draft_year == '':
-        print "\nThere is no draft data for %s, he may not have been drafted." % name
+        print "\nThere is no draft data for %s, he may not have been drafted." % name.title()
     elif i != 1:
-        print "\n%s wasn't active in the NBA in 2017." % name
+        print "\n%s wasn't active in the NBA in 2017." % name.title()
             

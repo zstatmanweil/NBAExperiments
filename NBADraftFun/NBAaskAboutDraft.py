@@ -7,7 +7,7 @@ import time
 #active in the NBA by draft year as of 2017 and then get a full list of 
 #names for a specific year of interest
 
-#this function will allow the user to continue seeing lists by year 
+#this function will allow the user to continue seeing lists of players by year 
 def see_another():       
     print """\nDo you want to see another year? If so, type that year. Do you \
 want to see which year and round a specific player was drafted? If so, \
@@ -18,9 +18,9 @@ awesome program"""
     
     users_choice(choice)
     
-#this function will allow the user to exit or make a choice
+#this function will allow the user to exit or make a choice of what they want to see
 def users_choice(choice):
-    if choice == "stop":
+    if choice.lower() == "stop":
         print "Good bye!"
         sys.exit()
     elif choice.isdigit() and len(choice) == 4:
@@ -46,6 +46,3 @@ time.sleep(1)
 choice = raw_input('> ')
 
 users_choice(choice)
-
-time.sleep(1)
-see_another()
