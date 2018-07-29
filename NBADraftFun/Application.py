@@ -139,5 +139,5 @@ awesome program"""
         for player in self.players:
             if user_submitted_name.lower() == player.search_name():
                 return player
-        return None
+        return False
         
