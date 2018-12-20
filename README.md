@@ -1,1 +1,1 @@
-These are the scripts I am creating and editing as I learn Python. I love basketball so many of my scripts will center around the game. My favorite project right now are the shot charts, where I am using players' shot data to ask and answer interesting questions.
+I enjoy playing around with NBA data using python - it is a great way to practice using pandas and numpy, and experiment with different data visualization packages. My favorite project right now are the shot charts, where I use various players' shot data to ask and answer interesting questions. 
