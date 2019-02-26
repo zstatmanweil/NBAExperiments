@@ -5,5 +5,3 @@ I created shot charts showing and analyzing NBA players' field goals made and fi
 ## Analysis
 I enjoyed exploring the data to see if I could gain insight into the players' habits. I noticed Klay Thompson shot way more threes on the right side (see below), but did he make more? Turns out in the 2017-18 season, Klay made 45.7% on the right and 45.2% on the left. 
 
-
-![alt text]
